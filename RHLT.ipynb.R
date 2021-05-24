@@ -7,8 +7,6 @@ my_age <- readline("Enter age: ")
 hello <-print(paste("Hi," ,"My name is", my_name, "and I am ", my_age, "years old today"))
 
 #task2 
-
-food_types <- list("fruits", "legumes", "vegetables", "starch", "protein")
 ls()
 
 #task 3
