@@ -26,7 +26,7 @@ ggplot(data = air_qu , aes( x = Ozone, y = Wind )) +
     panel.background = element_rect(fill = "white")
   )
 
-#visualization (line graph of Temp v Wind) showing that lower tempratur is linked to stronger wind
+#visualization (line graph of Temp v Wind)  that shows low temprature is linked to stronger wind
 ggplot(data = air_qu , aes( x = Temp, y = Wind)) +
   geom_line() + 
   labs(
@@ -59,7 +59,7 @@ air_qu %>%
   theme(panel.background = element_rect(fill = "white"))
 
 
-# NewYork's temperature density  from Spring to Fall
+# NewYork's temperature density from Spring to Fall
 air_qu %>%
   ggplot(aes(x = Month, y = Temp)) +
   geom_density_2d_filled() 
